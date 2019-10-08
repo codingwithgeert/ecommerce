@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['7fab98513db3407a969ffa79167022fe.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['7fab98513db3407a969ffa79167022fe.vfs.cloud9.us-east-1.amazonaws.com', '127.0.0.1', 'geert-eco.herokuapp.com']
 
 
 # Application definition
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'products',
     'cart',
     'checkout',
-    'stripe'
+    'stripe',
 ]
 
 MIDDLEWARE = [
